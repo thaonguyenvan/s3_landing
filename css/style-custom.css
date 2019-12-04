@@ -18,3 +18,205 @@ header .main_menu nav .nav-right a:hover{
 .img-custom{
     width: 300px;
 }
+.usecases {
+    margin-top: 100px;
+}
+
+.usecase-text {
+    color: #000000;
+}
+
+
+
+
+/* popup recall */
+.popup-re-call, .popup-check-domain{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 99000;
+    top: 0px;
+    padding-top: 100px;
+    text-align: left;
+    overflow: scroll;
+  
+  }
+  .popup-re-call > .content_popup, .popup-re-call > .success-conten{
+    background: #FFF;
+    padding: 20px 20px 0px 20px;
+    width: 350px;
+    margin: auto;
+  }
+  .popup-check-domain > .content_popup{
+    background: #FFF;
+    padding: 20px 20px 0px 20px;
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+  }
+  .popup-re-call > .content_popup > .input-content > img,.popup-re-call > .content_popup > .success-conten > img{
+    width: 10%;
+  }
+  .popup-re-call > .content_popup > .input-content > .text-hello,.popup-re-call > .content_popup > .success-conten > .text-hello{
+    color: #169e31;
+    font-size: 22px;
+    padding-top: 5px;
+  }
+  .popup-re-call> .content_popup > .input-content  > .conten-sub{
+    color:  #337ab7;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+    line-height: 18px;
+    padding-bottom: 10px;
+  }
+  .popup-re-call> .content_popup > .success-conten  > .conten-sub{
+    font-size: 14px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    line-height: 20px;
+  }
+  .popup-re-call> .content_popup > .success-conten  > .conten-warning{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: red;
+    padding-top: 10px;
+    line-height: 20px;
+  }
+  .popup-re-call > .content_popup >.input-content > .submit-content,
+  .popup-re-call > .content_popup >.success-conten > .submit-content,
+  .popup-check-domain > .content_popup > .submit-content{
+    font-size: 14px;
+    margin: 3px -20px 0 -20px;
+    background: #e3e3e3;
+    padding: 5px 20px;
+    overflow: auto;
+  }
+  .popup-re-call > .content_popup >.input-content > .submit-content > .send-go,
+  .popup-check-domain > .content_popup >.submit-content> .add_service_cart{
+    background: #f16726;
+    color: #FFF;
+    border-radius: 3px;
+  }
+  
+  .popup-re-call > .content_popup >.input-content > .submit-content > .go-hotline{
+    width: 70%;
+    float: right;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .popup-check-domain > .content_popup >.submit-content> .go-hotline{
+    /*width: 70%;*/
+    float: right;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .popup-re-call > .content_popup >.input-content > .success-conten > .go-hotline{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .popup-re-call > .content_popup >.input-content > .submit-content > .go-hotline > span{
+    color: #f16726;
+    font-weight: bold;
+  }
+  .popup-re-call > .content_popup > .re-close-popup,.popup-check-domain > .content_popup > .domain-close-popup {
+    margin-top: -17px;
+    margin-right: -12px;
+  }
+  .phone_error,.content_error{
+    padding: 5px;
+    display: none;
+  }
+  .request_detail .content_request .content_request_sub{
+    border: 1px solid #EEE;
+  }
+  .request_detail .text{
+    background: #EEE;
+  
+  }
+  .request_detail .row{
+    line-height: 35px;
+  }
+  .re-send-call,.pointer{
+    cursor: pointer;
+  }
+  
+  input[type=radio].css-checkbox-x2 {
+    display: none
+  }
+  input[type=radio].css-checkbox-x2+label.css-label-x2 {
+    padding-left: 38px;
+    margin-right: 16px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 15px;
+    font-weight: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    color:#ff6600
+  }
+  input[type=radio].css-checkbox-x2+label.css-label-x2:last-child {
+    margin-right: 0px
+  }
+  input[type=radio].css-checkbox-x2:checked+label.css-label-x2 {
+    background-position: 0 -30px
+  }
+  label.css-label-x2 {
+    background:url(https://nhanhoa.com/khuyenmai/black-friday-2019/images/radio-x2.png);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+  }
+  
+  .faq-ans-div{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e6e6e6;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .add_to_cart{
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .templ{
+    width: 75% !important;
+  }
+  
+  .nd{
+    font-style: italic;
+  }
+  
+  .img-i{
+    width: 100px !important;
+    height: 110px;
+  }
+
+div.show_popup_coupon {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.show_popup_coupon {
+    cursor: pointer;
+}
+
+.add_service_vps_to_cart,  .add_service_hosting_to_cart, .add_service_email_to_cart, .show_popup_check_domain{
+    cursor: pointer;
+}
